@@ -11,7 +11,7 @@ export default function App() {
     <Stack.Navigator initialRouteName='Home'>
       {/* <Stack.Screen name='Home' component={Home}/> */}
       <Stack.Screen name='Home'> 
-      {(props)=> <Home {...props} tutorialName={'Raihan Tutorial'}/>}
+      {(props)=> <Home {...props} tutorialName={'Raihan Tutorial '}/>}
 
       </Stack.Screen>
     </Stack.Navigator>
