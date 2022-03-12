@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, Image} from 'react-native';
 import React from 'react'
+import Menu from './component/Menu';
 
 const Home = (props) => {
   const description= 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.';
@@ -29,6 +30,9 @@ const Home = (props) => {
             {description}
             
           </Text>
+      </View>
+      <View>
+      <Menu/>
       </View>
     </View>
       );

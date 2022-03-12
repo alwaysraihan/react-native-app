@@ -19,6 +19,8 @@ export default function App() {
 
       {/* Course screen  */}
       <Stack.Screen name='Course' component={Course}/>
+      {/* UserData screen  */}
+      <Stack.Screen name='User' component={UserData}/>
 
       {/* About screen  */}
       <Stack.Screen name='About' component={About}/>
